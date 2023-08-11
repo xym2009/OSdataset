@@ -10,6 +10,7 @@ The details of construction of this dataset are given as follows,
 For more details, please refer to the corresponding paper: "Automatic Registration of Optical and SAR Images Via Improved Phase Congruency Model" (https://ieeexplore.ieee.org/abstract/document/9204802).
 
 If you are using OSdataset in your project, we kindly ask you to cite:
+
 @article{xiang2020automatic,
   title={Automatic registration of optical and SAR images via improved phase congruency model},
   author={Xiang, Yuming and Tao, Rongshu and Wang, Feng and You, Hongjian and Han, Bing},
