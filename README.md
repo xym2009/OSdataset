@@ -7,6 +7,8 @@ The details of construction of this dataset are given as follows,
 2) Each image scene is tailored to image patches of 1000×1000 pixels and 50% overlapping areas. We conduct the proposed registration method on each pair of optical and SAR patches parallelly and extract the center part (512×512) of the registered patches. All the image patches are converted to unsigned 8-b integers, and image enhancement is applied to visualize the data in grayscale for SAR patches. This procedure is implemented by first normalizing the range of image amplitude to the interval 0–255, then the grayscale adjustment function “imadjust” with default parameter settings in MATLAB is performed on SAR patches. The SAR amplitude is presented in linear scale.
 3) In order to remove unsatisfactory patches that contain transformation distortions or visible land cover changes, we have checked all patches visually. We can obtain 2673 patch pairs of 512×512 pixels after this step. In order to build a high-resolution dataset of patch pairs for deep learning tasks, we finally generate 10692 patch pairs of 256×256 pixels. It should be noted that the patches have no overlapping areas, data augmentation can be conveniently implemented to further increase the number of final patches. We provide patch pairs of both 512×512 and 256×256 pixels. Our dataset is shared under the open-access license CC-BY-NC.
 
+![1693443938121](https://github.com/xym2009/OSdataset/assets/19380078/fa4cddf2-7a54-46e7-af17-dc04aed576f9)
+
 For more details, please refer to the corresponding paper: "Automatic Registration of Optical and SAR Images Via Improved Phase Congruency Model" (https://ieeexplore.ieee.org/abstract/document/9204802).
 
 If you are using OSdataset in your project, we kindly ask you to cite:
