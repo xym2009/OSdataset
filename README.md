@@ -13,12 +13,12 @@ For more details, please refer to the corresponding paper: "Automatic Registrati
 
 If you are using OSdataset in your project, we kindly ask you to cite:
 
-@article{xiang2020automatic,
-  title={Automatic registration of optical and SAR images via improved phase congruency model},
-  author={Xiang, Yuming and Tao, Rongshu and Wang, Feng and You, Hongjian and Han, Bing},
-  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
-  volume={13},
-  pages={5847--5861},
-  year={2020},
-  publisher={IEEE}
-}
+    @article{xiang2020automatic,
+      title={Automatic registration of optical and SAR images via improved phase congruency model},
+      author={Xiang, Yuming and Tao, Rongshu and Wang, Feng and You, Hongjian and Han, Bing},
+      journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+      volume={13},
+      pages={5847--5861},
+      year={2020},
+      publisher={IEEE}
+    }
