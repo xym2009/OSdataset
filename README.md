@@ -1,6 +1,10 @@
 # OSdataset
 
-A high-resolution dataset for optical and SAR image registraiton. Download link: https://pan.baidu.com/s/14bqaJhMSZEy7EXcXVAc77w?pwd=vriw 
+A high-resolution dataset for optical and SAR image registration. 
+
+Baidu download link: https://pan.baidu.com/s/14bqaJhMSZEy7EXcXVAc77w?pwd=vriw 
+
+Google drive link: https://drive.google.com/file/d/10gySGfj0-pH1N2TeZWYU1H38OskzKC27/view?usp=sharing
 
 The details of construction of this dataset are given as follows,
 1) We first collect 20 pairs of optical and SAR remote sensing scenes. These scene pairs locate at several cities around the world, including Beijing, Shanghai, Suzhou, Wuhan, Sanhe, Yancheng, Dengfeng, Zhongshan, and Zhuhai in China, Renne in France, Tucson, Omaha, Guam, and Jacksonville in America, and Dwarka and Agra in India. The SAR images are collected from the Chinese GaoFen-3 (GF-3), a multipolarized C-band SAR satellite. Using the spotlight imaging mode, GF-3 can provide geocoding images with 1-m resolution and 10-km ground coverage. The optical images are collected from the Google Earth platform and resampled to 1-m resolution.
